@@ -1,0 +1,9 @@
+#!/bin/bash
+#exemplo de entrada pelo usuário
+# para executar este script type ./testa_entrada
+
+echo "What is your name? "
+read NAME
+
+echo "Olá, " $NAME
+exit 0

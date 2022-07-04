@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#exemplo do envio de uma entrada para um comando
+
+#O primeiro comando é "tr", que é uma abreviação de "translate".
+#Este é um filtro clássico. Isto é, um programa que obtém uma entrada a partir
+#da entrada padrão, transforma-a de alguma maneira, e então a envia para a saída padrão.
+#Neste caso, ele substitui cada caractere na string abc ...z com o caractere correspondente
+#da string ABC ... Z
+#
+tr "[a-z]" "[A-Z]"<<EOF
+Esta linha estava em maiúscula e minúscula
+EOF
+echo "ok"

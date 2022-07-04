@@ -1,0 +1,24 @@
+#exemplo do uso de switch
+
+foreach item($argv)
+
+	switch($item)
+		
+		case "*.c":
+			echo $item " é um arquivo c".
+			breaksw
+		case "*.h":
+			echo $item " é um arquivo tipo include".
+			breaksw
+		case "*.o":
+			echo $item " é um arquivo objeto".
+			breaksw
+		case "*.s":
+			echo $item " é um arquivo em linguagem assembly".
+			breaksw
+		default:
+			echo $item " não é um arquivo em c, include, objeto, ou em linguagem assembly".
+			breaksw
+	endsw
+end
+			
