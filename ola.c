@@ -2,7 +2,7 @@
 /* type "cc ola.c" para gerar o ficheiro executável a.out*/
 /* type "gcc -g -o ola.exe ola.c" para gerar o ficheiro executável "ola.exe" */
 /* type "./a.out" para executar*/
-/* type "ola.exe" para executar*/
+/* type "./ola.exe" para executar*/
 
 
 

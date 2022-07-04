@@ -1,0 +1,9 @@
+#!/bin/bash
+#exemplo de entrada pelo usuário
+# para executar este script type "csh testa_entrada_02"
+
+echo "What is your name? \c"
+set NAME='Tesouro'
+
+echo "Olá, "$NAME
+exit 0
