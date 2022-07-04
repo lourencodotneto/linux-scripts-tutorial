@@ -1,0 +1,7 @@
+#exemplo de passagem de parâmetro para um script
+echo "os parâmetros do script são:"
+echo "zero = " $0
+echo "um = " $1
+echo "dois = " $2
+
+

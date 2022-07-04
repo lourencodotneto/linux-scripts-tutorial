@@ -1,0 +1,7 @@
+#exemplo de foreach
+
+foreach item ($argv)
+	
+	if (! -d $item) sudo file $item
+	
+	end

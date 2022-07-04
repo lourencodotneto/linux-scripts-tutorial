@@ -1,0 +1,7 @@
+# exemplo de loop while
+
+while ($1 != "")
+
+	echo $1
+	shift
+	end

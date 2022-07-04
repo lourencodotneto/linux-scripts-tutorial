@@ -1,0 +1,6 @@
+  594  sudo vim mystatus
+  595  sudo chmod +x mystatus 
+  603  sudo chmod +x mystatus 
+  
+  607  csh mystatus 
+  612  history | grep mystatus > commands 

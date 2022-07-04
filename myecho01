@@ -1,0 +1,7 @@
+#exemplo de passagem de parâmetro para um script
+echo "os parâmetros do script são:"
+echo "zero = " $argv[0]
+echo "um = " $argv[1]
+echo "dois = " $argv[2]
+
+
