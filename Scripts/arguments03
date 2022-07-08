@@ -1,0 +1,36 @@
+#!/bin/bash
+# run this script with a few arguments
+
+echo you have entered $# arguments
+
+
+#for (( COUNTER=$#;COUNTER>=1;COUNTER-- ))
+#	do
+#		for i in $@; do
+#
+#			echo "argument $COUNTER: " $i
+#			#shift
+#		done
+#	done
+#exit 0
+
+		echo "argument : " $@
+
+# || is a logical OR and will execute the second part of the statement only if the first part is false; 
+# && is the logical AND and will execute the second part of the statement only if the first part it true.
+
+		test -z $1 || echo "argument 1: " $1
+		test -z $2 || echo "argument 2: " $2
+		test -z $3 || echo "argument 3: " $3
+		test -z $4 || echo "argument 4: " $4
+                test -z $5 || echo "argument 5: " $5
+                test -z $6 || echo "argument 6: " $6
+                test -z $7 || echo "argument 7: " $7
+                test -z $8 || echo "argument 8: " $8
+                test -z $9 || echo "argument 9: " $9
+		
+	
+		
+
+
+

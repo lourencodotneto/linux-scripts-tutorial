@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# an if ... then ... else ... fi statement is used to check whether the argument $1 exists. 
+# This is done by using a test. 
+# (test is a command by its own.) 
+#The test command can be written in two ways: test or [ ... ] . 
+# In his case, the line if [ -z $1 ] ... executes to see if the test -z $1 is true. 
+# The test -z  checks to see whether $1 is nonexistent. 
+# So stated otherwise, the line if [ -z $1 ] checks to see whether $1 is empty, which means that no argument was provided when starting this script. 
+# If this is the case, the commands after the then statement are executed. 
+# Notice that when writing the test command with the square brackets, it is essential to use spaces after the opening bracket and before the closing bracket; 
+# without spaces the command will not work. 
+# Notice that the then statement immediately follows the test. This is possible because a semicolon is used (;). 
+# A semicolon is a command separator and can replace a new line in a script. 
+# In the then statement, two commands are executed: an echo command that displays a message on screen, and a read command. 
+# The read command stops the script so that user input can be processed and stored in the variable NAME. 
+# So read NAME puts all user input in the variable NAME, which will be used later in the script. 
+# In the script, the next part is introduced by the else statement. 
+# The commands after the else statement are executed in all other cases, which in this case means “if an argument was provided.” 
+#If that is the case, the variable NAME is defined and the current value of $1 is assigned to it. 
+#Notice how the variable is defined: directly after the name of the variable there is an = sign, which is followed by $1. 
+# Notice that you should never use spaces when defining variables. 
+# Then, the if loop is closed with a fi statement. 
+# Once the if loop has been completed, you know for sure that the variable NAME is defined and has a value. 
+# The last line of the script reads the value of the variable NAME and displays this value to STDOUT via the echo command. 
+# Notice that to request the current value of a variable, the variable name is referred to, starting with a $ sign in front of it.
+
+
+
+if  test -z $1; then
+        echo enter a name
+        read NAME
+else
+        NAME=$1
+fi
+echo you have entered the text $NAME
+
+exit 0
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Using || and && Instead of writing full if ... then statements, you can use the logical operators || and &&. 
+# || is a logical OR and will execute the second part of the statement only if the first part is not true; 
+# && is the logical AND and will execute the second part of the statement only if the first part it true. 
+# Consider these two one-liners: Click here to view code image [ -z $1 ] && echo no argument provided
+# ping -c 1 10.0.0.20 2>/dev/null || echo node is not available In the first example, a test is performed to see whether $1 is empty. 
+# If that test is true (which basically means that the command exits with the exit code 0), the second command is executed. 
+# In the second example, a ping command is used to check the availability of a host. 
+# The logical OR is used in this example to echo the text “node is not
+
+
+[ -z $1 ] && echo no argument provided # && is the logical AND and will execute the second part of the statement only if the first part it true.
+
+ping -c 1 10.0.0.20 2>/dev/null || echo node is not available # || is a logical OR and will execute the second part of the statement only if the first part is not true;
+
+
+
+

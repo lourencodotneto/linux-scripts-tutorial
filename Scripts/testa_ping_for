@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+for i in {16..19}; do
+	ping -c 1 172.31.80.$i >/dev/null && echo 172.31.80.$i is up;
+done
+
+# Notice how the range is defined: You first specify the first number, followed by two dots and closed with the last number in the range. 
+#With for i in, each of these numbers is assigned to the variable i. 
+#For each of these numbers, a ping command is executed, where the option -c 1 makes sure that one ping request only is sent. 
+#In this ping command, it is not the result that counts, which is why the result is redirected to the /dev/null device. 
+#Based on the exit status of the ping command, the part behind the && is executed. So, if the host could be reached, a line is echoed indicating that it is up.

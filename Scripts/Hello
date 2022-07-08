@@ -1,0 +1,41 @@
+#!/bin/bash
+#
+# Basic Script Example
+
+#****************************************************************************************
+#****************************************************************************************
+# Row number 1: In this script the shebang makes clear that the script is a bash shell script
+# If your script contains Perl code, the shebang should be #!/usr/bin/perl
+# It is good practice to start a script with a shebang; if it is omitted, the script code will be executed by the shell that is used in the parent shell as well.
+
+# Make sure that you include comment lines, starting with a #. 
+# Do not only put them in the beginning of the script but also at the start of every subsection of the script. 
+# It will surely help if you read your script a few months later! 
+# You can also use comments within lines. 
+# No matter on which position it is used, everything from the # until the end of the line is comment.
+
+
+# At the end of the script I have included the statement exit 0. 
+# An exit statement tells the parent shell whether the script was successful. 
+# The exit status of the last command in the script is the exit status of the script itself, unless the exit 0 command is used at the end of the script. 
+# But it is good to know that you can work with exit to inform the parent shell how it all went. 
+
+# To request the exit status of the last command, from the parent shell, the command echo $? can be used. 
+# After creating a script, make sure that it can be executed. 
+# The most common way to do this is by applying the execute bit to it. 
+# So, if the name of the script is hello, use chmod +x hello to make it executable. 
+# The script can also be executed as an argument of the bash command, for instance. 
+# Use bash hello to run the hello script. 
+# If started as an argument of the bash command, the script does not need to be executable. 
+# You can basically store the script anywhere you like, but if you are going to store it in a location that is not included in the $PATH, 
+# you need to execute it with a ./ in front of the script name. 
+# So just typing hello is not going to be enough to run your script; type ./hello to run it. 
+# Or put it in a standard directory that is included in the $PATH variable, like /usr/local/bin
+
+# This is a script that greets the world
+# Usage:./hello
+
+clear
+echo hello world
+
+exit 0

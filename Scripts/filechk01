@@ -1,0 +1,17 @@
+#!/bin/bash
+# run this script with one argument
+# the goal is to find out if the argument is a file or a directory
+
+#***************************************************************************************************************
+#***************************************************************************************************************
+
+# Using || and && Instead of writing full if ... then statements, you can use the logical operators || and &&. 
+# || is a logical OR and will execute the second part of the statement only if the first part is not true; 
+# && is the logical AND and will execute the second part of the statement only if the first part it true.
+
+ 
+
+
+([ -f $1 ] && echo "$1 is a file" ) || ([ -d $1 ] && echo $1 "is a directory") || (echo "I do not know what $1 is")
+
+exit 0
