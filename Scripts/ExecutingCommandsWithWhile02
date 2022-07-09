@@ -1,0 +1,38 @@
+#!bin/bash
+#
+# usage: monitor <processname>
+#
+# run this command typing csh <filename>
+
+
+
+# A expressão condicional para este "while" é " $1 != "" ", Isto é, o argumento número 1 não é uma string vazia.
+# Assim, o loop "while" continua enquanto o argumento um contém algo. 
+# No corpo do loop nós simplemente exibimos este argumento.
+# Isto é feito somente para testar e demonstrar o loop de controle.
+# É bom começar programando deste modo para testar suas ideias antes que edições estranhas demais tornem nebulosos quaisquer problemas básicos de sintaxe que você possa ter.
+
+# A declaração "shift" desloca todos os argumentos para a esquerda de modo que o argumento dois passa a ser o argumento um, e assim por diante. 
+# Deste modo nós estamos, na realidade, vendo o segundo argumento após a segunda passagem pelo loop, e assim por diante.
+# A declaração "shift" pode ser aplicada a outras listas além da lista de argumentos.
+# Este é somente o caso "default".
+
+# A declaração "while" pode ser usada juntamente com as declarações "break" e "continue" para sair do loop prematuramente ou pular para a próxima iteração do loop prematuramente.
+
+# Aqui, nós o aplicamos à lista de argumentos /usr/bin/*, a qual é a lista de todos os arquivos do directório /usr/bin.
+# Ele nos dá somente o conteúdo deste directório.
+
+#while ps aux | grep $1 | grep -v grep > MonitorOutput
+# while ps aux | grep ps | grep -v grep
+
+while ($1 != "")
+	#clear
+	ps aux | grep $1 | grep -v grep
+	#sleep 5
+	shift
+	#clear
+	echo your process has stopped
+	logger $1 is no longer present
+	echo "process $1 has stopped"
+	end
+

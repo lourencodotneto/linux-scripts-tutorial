@@ -1,0 +1,758 @@
+    1  aws
+    2  aws configure
+    3  exit
+    4  sudo apt-get update
+    5  ls -l
+    6  ls -la
+    7  git
+    8  git clone https://github.com/lourencodotneto/linux-scripts-tutorial.git
+    9  ls -la
+   10  cd linux-scripts-tutorial/
+   11  ls -la
+   12  mkdir C
+   13  mv a.out c
+   14  ls -l
+   15  cd c
+   16  ls -l
+   17  cd C
+   18  ls -l
+   19  cd ..
+   20  mv c a.out
+   21  ls -la
+   22  mv a.out ~/C
+   23  cd C
+   24  ls -l
+   25  cd ..
+   26  ls -l
+   27  cd C
+   28  ls -la
+   29  cd ..
+   30  ls -la
+   31  cd ~
+   32  ls -l
+   33  move C a.out
+   34  mv C a.out
+   35  ls -la
+   36  mv a.out ~/linux-scripts-tutorial/
+   37  cd linux-scripts-tutorial/
+   38  ls -la
+   39  pwd
+   40  cp a.out /home/ubuntu/linux-scripts-tutorial/C
+   41  cd C
+   42  ls -la
+   43  cd ..
+   44  ls-la
+   45  ls -la
+   46  mv ola.* /home/ubuntu/linux-scripts-tutorial/C/
+   47  cd C
+   48  ls -l
+   49  a.out
+   50  csh a.out
+   51  ./a.out
+   52  cd ..
+   53  ls -l
+   54  rm a.ut
+   55  rm a.out
+   56  ls-l
+   57  ls -la
+   58  mkdir Scripts
+   59  mv ciclo_for /home/ubuntu/linux-scripts-tutorial/Scripts/
+   60  cd Scripts/
+   61  ls -la
+   62  cd ..
+   63  ls -la
+   64  cat f
+   65  ls -l
+   66  mv f /home/ubuntu/linux-scripts-tutorial/Scripts/
+   67  mv loop_while /home/ubuntu/linux-scripts-tutorial/Scripts/
+   68  mv my* /home/ubuntu/linux-scripts-tutorial/Scripts/
+   69  ls -la
+   70  cat r
+   71  mv r /home/ubuntu/linux-scripts-tutorial/Scripts/
+   72  mv t* /home/ubuntu/linux-scripts-tutorial/Scripts/
+   73  cat zero
+   74  ls -la
+   75  ca comm
+   76  ca commands 
+   77  cat commands 
+   78  ls -la
+   79  git status
+   80  git diff *.*
+   81  git add
+   82  git add .
+   83  git add *
+   84  git status
+   85  git commit -m "created folders"
+   86  git push origin main
+   87  ls -la
+   88  cd Scripts/
+   89  ls -la
+   90  sudo vim BSE
+   91  ls -la
+   92  mv BSE Hello
+   93  ls -l
+   94  ls -la
+   95  sudo chmod +x Hello
+   96  ls -la
+   97  ./Hello
+   98  ls -la
+   99  ls -l
+  100  cat myecho01
+  101  myecho01
+  102  ./myecho01
+  103  ./myecho01 ls -l
+  104  sudo vim arguments
+  105  ./arguments
+  106  sudo chmod +x arguments 
+  107  ./arguments
+  108  ./arguments ls -la
+  109  sudo vim arguments 
+  110  ./arguments ls -la
+  111  sudo vim arguments01
+  112  sudo chmod +x arguments01
+  113  arguments01
+  114  ls -la
+  115  ./arguments ls -la
+  116  ./arguments01 ls -la
+  117  sudo vim arguments01
+  118  cp arguments01 arguments02
+  119  sudo vim arguments02
+  120  ./arguments02 ls -la
+  121  sudo vim arguments02
+  122  ./arguments02 ls -la
+  123  sudo vim arguments02
+  124  ./arguments02 ls -la
+  125  sudo vim arguments02
+  126  ./arguments02 ls -la
+  127  sudo vim arguments02
+  128  ./arguments02 ls -la
+  129  sudo vim arguments02
+  130  ./arguments02 ls -la
+  131  sudo vim arguments02
+  132  ./arguments02 ls -la
+  133  sudo vim arguments02
+  134  ./arguments02 ls -la
+  135  sudo vim arguments02
+  136  ./arguments02 ls -la
+  137  sudo vim arguments02
+  138  ./arguments02 ls -la
+  139  sudo vim arguments02
+  140  ./arguments02 ls -la
+  141  sudo vim arguments02
+  142  ./arguments02 ls -la
+  143  sudo vim arguments02
+  144  ./arguments02 ls -la
+  145  sudo vim arguments02
+  146  ./arguments02 ls -la
+  147  sudo vim arguments02
+  148  ./arguments02 ls -la
+  149  sudo vim arguments02
+  150  ./arguments02 ls -la
+  151  sudo vim arguments02
+  152  ./arguments02 ls -la
+  153  sudo vim arguments02
+  154  ./arguments02 ls -la
+  155  sudo vim arguments02
+  156  ./arguments02 ls -la
+  157  sudo vim arguments02
+  158  ./arguments02 ls -la
+  159  sudo vim arguments02
+  160  ./arguments02 ls -la
+  161  sudo vim arguments02
+  162  ./arguments02 ls -la
+  163  sudo vim arguments02
+  164  ./arguments02 ls -la
+  165  sudo vim arguments02
+  166  ./arguments02 ls -la
+  167  sudo vim arguments02
+  168  ./arguments02 ls -la
+  169  sudo vim arguments02
+  170  ./arguments02 ls -la
+  171  sudo vim arguments02
+  172  ./arguments02 ls -la
+  173  sudo vim arguments02
+  174  ./arguments02 ls -la
+  175  sudo vim arguments02
+  176  ./arguments02 ls -la
+  177  sudo vim arguments02
+  178  ./arguments02 ls -la
+  179  sudo vim arguments02
+  180  ./arguments02 ls -la
+  181  sudo vim arguments02
+  182  ./arguments02 ls -la
+  183  sudo vim arguments02
+  184  ./arguments02 ls -la
+  185  sudo vim arguments02
+  186  ./arguments02 ls -la
+  187  sudo vim arguments02
+  188  ./arguments02 ls -la
+  189  ./arguments02 a b c
+  190  ./arguments02 a b c d e f
+  191  ./arguments02
+  192  sudo vim arguments02
+  193  ./arguments02
+  194  cp arguments02 busca_dia
+  195  sudo vim busca_dia 
+  196  sudo vim arguments02
+  197  ./arguments02
+  198  sudo vim busca_dia 
+  199  ./ busca_dia
+  200  ./busca_dia
+  201  sudo vim busca_dia 
+  202  ./busca_dia
+  203  sudo vim busca_dia 
+  204  ./busca_dia
+  205  sudo vim busca_dia 
+  206  csh
+  207  sudo apt-get csh
+  208  sudo apt-get installcsh
+  209  sudo apt-get install csh
+  210  ./busca_dia
+  211  csh busca_dia
+  212  ./busca_dia
+  213  ./arguments02
+  214  ./arguments02 a b c d e f
+  215  csh arguments02 a b c d e f
+  216  .csh arguments02 a b c d e f
+  217  sudo vim busca_dia 
+  218  ./busca_dia
+  219  sudo vim busca_dia 
+  220  ./busca_dia
+  221  mv busca_dia presenta_dia
+  222  ls -la
+  223  presenta_dia
+  224  ./presenta_dia
+  225  sudo vim presenta_dia 
+  226  ./presenta_dia
+  227  sudo vim presenta_dia 
+  228  ./presenta_dia
+  229  Today = ./presenta_dia
+  230  sudo vim presenta_dia 
+  231  ./presenta_dia
+  232  sudo vim presenta_dia 
+  233  ./presenta_dia
+  234  sud vim testa_read
+  235  sudo vim testa_read
+  236  sudo chmod +x testa_read
+  237  ./testa_read
+  238  ./testa_read Ala
+  239  ./testa_read Alta
+  240  ./testa_read 1
+  241  cat testa_
+  242  cat testa_read 
+  243  sudo vim testa_read_1
+  244  sudo chmod +x testa_read_1
+  245  ./test_read_1
+  246  ls -la
+  247  ./testa_read_1
+  248  ./testa_read_1 as
+  249  sudo vim testa_read_1
+  250  ./testa_read_1 as
+  251  sudo vim testa_read_1
+  252  ./testa_read_1 as
+  253  sudo vim testa_read_1
+  254  ./testa_read_1 as
+  255  sudo vim testa_read_1
+  256  ./testa_read_1 as
+  257  ./testa_read as
+  258  sudo vim testa_read
+  259  ./testa_read as
+  260  sudo vim testa_read_1
+  261  ./testa_read_1 as
+  262  sudo vim testa_read_1
+  263  ./testa_read_1 as
+  264  ./testa_read_1
+  265  ./testa_read
+  266  sudo vim testa_read_1
+  267  ./testa_read_1
+  268  ./testa_read_1 Te r
+  269  sudo vim testa_logica
+  270  sudo chmod +x testa_logica
+  271  ./testa_lgica
+  272  ./testa_logica
+  273  ./testa_logica asd
+  274  sudo vim testa_logica
+  275  ./testa_logica asd
+  276  sudo vim testa_logica
+  277  ./testa_logica
+  278  sudo vim filechk
+  279  sudo +x chmod filechk
+  280  sudo chmod +x filechk
+  281  filechk /etc/hosts
+  282  filechk/etc/hosts
+  283  ./filechk /etc/hosts
+  284  ./filechk/etc/hosts
+  285  ls -la
+  286  ./filechk
+  287  sudo vim filechk
+  288  ./filechk Hello
+  289  sudo vim filechk
+  290  ./filechk Hello
+  291  ./filechkHello
+  292  filechk Hello
+  293  sudo ./filechk Hello
+  294  sudo vim filechk
+  295  sudo ./filechk Hello
+  296  sudo vim filechk
+  297  sudo ./filechk Hello
+  298  sudo vim filechk
+  299  sudo ./filechk Hello
+  300  sudo ./filechk /etc/hosts
+  301  sudo ./filechk /usr
+  302  sudo vim filechk
+  303  sudo ./filechk /etc/hosts
+  304  sudo ./filechk /usr
+  305  sudo ./filechk b
+  306  sudo vim filechk
+  307  sudo ./filechk b
+  308  env
+  309  cp filechk filechk01
+  310  mv filechk filechk00
+  311  ls -l
+  312  ./filechk00
+  313  ./filechk00 Hello
+  314  sud vim filechk01
+  315  sudo vim filechk01
+  316  ./filechk01 Hello
+  317  ./filechk01
+  318  sudo vim filechk01
+  319  ./filechk01 Hello
+  320  ls -l
+  321  ./filechk01 Hello
+  322  sudo vim filechk01
+  323  ./filechk01 Hello
+  324  ./filechk01 n
+  325  ./filechk01 b
+  326  sudo vim filechk01
+  327  ./filechk01 b
+  328  ./filechk01 Hello
+  329  ./filechk01 /usr
+  330  sudo vim filechk01
+  331  sudo vim testa_for
+  332  sudochmod +x testa_for
+  333  sudo chmod +x testa_for
+  334  testa_for ls -la
+  335  ./testa_for ls -la
+  336  ./testa_for
+  337  ls-la
+  338  ls -la
+  339  tree
+  340  sudo apt-get install tree
+  341  tree
+  342  cat arguments02
+  343  cp arguments02 arguments03
+  344  sudo vim arguments03
+  345  ./arguments03
+  346  ./arguments03 Hel
+  347  ./arguments03 Hel fgg
+  348  sudo vim arguments03
+  349  ./arguments03 Hel fgg
+  350  sudo vim arguments03
+  351  ./arguments03 Hel fgg
+  352  ./arguments03
+  353  ./arguments03 r
+  354  sudo vim arguments03
+  355  ./arguments03 r
+  356  sudo vim arguments03
+  357  ./arguments03 r
+  358  sudo vim arguments03
+  359  ./arguments03 r
+  360  sudo vim arguments03
+  361  ./arguments03 r
+  362  sudo vim arguments03
+  363  ./arguments03 r
+  364  sudo vim arguments03
+  365  ./arguments03 r
+  366  ./arguments03 r s
+  367  sudo vim arguments03
+  368  cat arguments03
+  369  ./arguments03 rs
+  370  ./arguments03 rs y
+  371  sudo vim arguments03
+  372  ./arguments03 rs y
+  373  sudo vim arguments03
+  374  ./arguments03 rs y
+  375  sudo vim arguments03
+  376  ./arguments03 rs y
+  377  sudo vim arguments03
+  378  ./arguments03 rs y
+  379  sudo vim arguments03
+  380  ./arguments03 rs y
+  381  sudo vim arguments03
+  382  ./arguments03 rs y
+  383  sudo vim arguments03
+  384  ./arguments03 rs y uu
+  385  sudo vim arguments03
+  386  ./arguments03 rs y uu
+  387  sudo vim arguments03
+  388  ./arguments03 rs y uu
+  389  sudo vim arguments03
+  390  ./arguments03 rs y uu
+  391  sudo vim arguments03
+  392  ./arguments03 rs y uu
+  393  sudo vim arguments03
+  394  ./arguments03 rs y uu
+  395  sudo vim arguments03
+  396  ./arguments03 rs y uu
+  397  sudo vim arguments03
+  398  ./arguments03 rs y uu
+  399  sudo vim arguments03
+  400  ./arguments03 rs y uu
+  401  sudo vim arguments03
+  402  ./arguments03 rs y uu
+  403  sudo vim arguments03
+  404  ./arguments03 rs y uu
+  405  sudo vim arguments03
+  406  ./arguments03 rs y uu
+  407  sudo vim arguments03
+  408  ./arguments03 rs y uu
+  409  sudo vim arguments03
+  410  ./arguments03 rs y uu
+  411  sudo vim arguments03
+  412  ./arguments03 rs y uu
+  413  sudo vim arguments03
+  414  ./arguments03 rs y uu
+  415  sudo vim arguments03
+  416  ./arguments03 rs y uu
+  417  sudo vim arguments03
+  418  ./arguments03 rs y uu
+  419  sudo vim arguments03
+  420  ./arguments03 rs y uu
+  421  sudo vim arguments03
+  422  ./arguments03 rs y uu
+  423  sudo vim arguments03
+  424  ./arguments03 rs y uu
+  425  sudo vim arguments03
+  426  ./arguments03 rs y uu
+  427  sudo vim arguments03
+  428  ./arguments03 rs y uu
+  429  ./arguments03
+  430  sudo vim arguments03
+  431  ./arguments03
+  432  sudo vim arguments03 ff
+  433  ./arguments03 ff
+  434  sudo vim arguments03 ff
+  435  sudo vim arguments03 ff dd
+  436  ./arguments03 ff dd
+  437  sudo vim arguments03 ff dd
+  438  ./arguments03 ff dd
+  439  sudo vim arguments03 ff dd
+  440  ./arguments03 ff dd
+  441  sudo vim arguments03 ff dd
+  442  ./arguments03 ff dd
+  443  sudo vim arguments03 ff dd
+  444  ./arguments03 ff dd
+  445  sudo vim arguments03 ff dd
+  446  ./arguments03 ff dd
+  447  sudo vim arguments03 ff dd
+  448  ./arguments03 ff dd
+  449  sudo vim arguments03 ff dd
+  450  ./arguments03 ff dd
+  451  sudo vim arguments03 ff dd
+  452  ./arguments03 ff dd
+  453  sudo vim arguments03
+  454  sudo vim arguments03
+  455  ./arguments03 ff dd
+  456  sudo vim arguments03
+  457  ./arguments03 ff dd
+  458  sudo vim arguments03
+  459  ./arguments03 ff dd
+  460  sudo vim arguments03
+  461  ./arguments03 ff dd
+  462  sudo vim arguments03
+  463  ./arguments03 ff dd
+  464  sudo vim arguments03
+  465  ./arguments03 ff dd
+  466  sudo vim arguments03
+  467  ./arguments03 ff dd
+  468  sudo vim arguments03
+  469  ./arguments03 ff dd
+  470  sudo vim arguments03
+  471  ./arguments03 ff dd
+  472  sudo vim arguments03
+  473  ./arguments03 ff dd
+  474  sudo vim arguments03
+  475  ./arguments03 ff dd
+  476  sudo vim arguments03
+  477  ./arguments03 ff dd
+  478  sudo vim arguments03
+  479  ./arguments03 ff dd
+  480  sudo vim arguments03
+  481  ./arguments03 ff dd
+  482  ./arguments03
+  483  ./arguments03 ff dd
+  484  sudo vim arguments03
+  485  ./arguments03 ff dd
+  486  sudo vim arguments03
+  487  ./arguments03 ff dd
+  488  sudo vim arguments03
+  489  ./arguments03 ff dd
+  490  sudo vim arguments03
+  491  ./arguments03 ff dd
+  492  sudo vim arguments03
+  493  ./arguments03 ff dd
+  494  sudo vim arguments03
+  495  ./arguments03 ff dd
+  496  sudo vim arguments03
+  497  ./arguments03 ff dd
+  498  sudo vim arguments03
+  499  ./arguments03 ff dd
+  500  sudo vim arguments03
+  501  ./arguments03 ff dd
+  502  sudo vim arguments03
+  503  ./arguments03 ff dd
+  504  sudo vim arguments03
+  505  ./arguments03 ff dd
+  506  sudo vim arguments03
+  507  ./arguments03 ff dd
+  508  sudo vim arguments03
+  509  ./arguments03 ff dd
+  510  ./arguments03 ff
+  511  ./arguments03 ff dd
+  512  sudo vim arguments03
+  513  ./arguments03 ff dd
+  514  sudo vim arguments03
+  515  ./arguments03 ff dd
+  516  sudo vim arguments03
+  517  ./arguments03 ff dd
+  518  sudo vim arguments03
+  519  ./arguments03 ff dd
+  520  sudo vim arguments03
+  521  ./arguments03 ff dd
+  522  sudo vim arguments03
+  523  ./arguments03 ff dd
+  524  sudo vim arguments03
+  525  ./arguments03 ff dd
+  526  sudo vim arguments03
+  527  ./arguments03 ff dd
+  528  sudo vim arguments03
+  529  ./arguments03 ff dd
+  530  sudo vim arguments03
+  531  ./arguments03 ff dd
+  532  sudo vim arguments03
+  533  ./arguments03 ff dd
+  534  sudo vim arguments03
+  535  ./arguments03 ff dd
+  536  sudo vim arguments03
+  537  ./arguments03 ff dd
+  538  sudo vim arguments03
+  539  ./arguments03 ff dd
+  540  sudo vim arguments03
+  541  ./arguments03 ff dd
+  542  sudo vim arguments03
+  543  ./arguments03 ff dd
+  544  sudo vim arguments03
+  545  ./arguments03 ff dd
+  546  sudo vim arguments03
+  547  ./arguments03 ff dd
+  548  sudo vim arguments03
+  549  ./arguments03 ff dd
+  550  sudo vim arguments03
+  551  ./arguments03 ff dd
+  552  sudo vim arguments03
+  553  ./arguments03 ff dd
+  554  sudo vim arguments03
+  555  ./arguments03 ff dd
+  556  sudo vim arguments03
+  557  ./arguments03 ff dd
+  558  sudo vim arguments03
+  559  ./arguments03 ff dd
+  560  sudo vim arguments03
+  561  ./arguments03 ff dd
+  562  sudo vim arguments03
+  563  ./arguments03 ff dd
+  564  sudo vim arguments03
+  565  ./arguments03 ff dd
+  566  sudo vim arguments03
+  567  ./arguments03 ff dd
+  568  sudo vim arguments03
+  569  ./arguments03 ff dd
+  570  sudo vim arguments03
+  571  ./arguments03 ff dd
+  572  sudo vim arguments03
+  573  ./arguments03 ff dd
+  574  sudo vim arguments0
+  575  sudo vim arguments03
+  576  sudo vim arguments0
+  577  ./arguments03 ff dd
+  578  sudo vim arguments03
+  579  ./arguments03 ff dd
+  580  sudo vim arguments03
+  581  ./arguments03 ff dd
+  582  sudo vim arguments03
+  583  ./arguments03 ff dd
+  584  sudo vim arguments03
+  585  ./arguments03 ff dd
+  586  sudo vim arguments03
+  587  ./arguments03 ff dd
+  588  sudo vim arguments03
+  589  ./arguments03 ff dd
+  590  sudo vim arguments03
+  591  ./arguments03 ff dd
+  592  sudo vim arguments03
+  593  ./arguments03 ff dd
+  594  sudo vim arguments03
+  595  ./arguments03 ff dd
+  596  sudo vim arguments03
+  597  ./arguments03 ff dd
+  598  sudo vim arguments03
+  599  ./arguments03 ff dd
+  600  sudo vim arguments03
+  601  ./arguments03 ff dd
+  602  sudo vim arguments03
+  603  ./arguments03 ff dd
+  604  sudo vim arguments03
+  605  ./arguments03 ff dd
+  606  sudo vim arguments03
+  607  ./arguments03 ff dd
+  608  sudo vim arguments03
+  609  ./arguments03 ff dd
+  610  sudo vim arguments03
+  611  ./arguments03 ff dd
+  612  sudo vim arguments03
+  613  ./arguments03 ff dd
+  614  sudo vim arguments03
+  615  ./arguments03 ff dd
+  616  sudo vim arguments03
+  617  ./arguments03 ff dd
+  618  sudo vim arguments03
+  619  ./arguments03 ff dd
+  620  sudo vim arguments03
+  621  ./arguments03 ff dd
+  622  sudo vim arguments03
+  623  ./arguments03 ff dd
+  624  sudo vim arguments03
+  625  ./arguments03 ff dd
+  626  sudo vim arguments03
+  627  ./arguments03 ff dd
+  628  sudo vim arguments03
+  629  ./arguments03 ff dd ee ff
+  630  ./arguments03 ff dd ee ff gg hh jj
+  631  sudo vim arguments03
+  632  ./arguments03 ff dd ee ff gg hh jj
+  633  sudo vim arguments03
+  634  ./arguments03 ff dd ee ff gg hh jj
+  635  sudo vim arguments03
+  636  ./arguments03 ff dd ee ff gg hh jj
+  637  ./arguments03 ff dd ee ff gg hh jj kk ll mm
+  638  sudo vim testa_for
+  639  ls -la
+  640  touch testa_ping_for
+  641  sudo vim testa_ping_for 
+  642  sudo +x chmod testa_ping_for
+  643  sudo chmod +x testa_ping_for
+  644  ./testa_ping_for
+  645  sudo chmod +x testa_ping_for
+  646  sudo vim testa_ping_for 
+  647  ./testa_ping_for
+  648  sudo vim testa_ping_for 
+  649  ./testa_ping_for
+  650  sudo vim testa_ping_for 
+  651  ./testa_ping_for
+  652  sudo vim testa_ping_for 
+  653  ./testa_ping_for
+  654  sudo vim testa_ping_for 
+  655  ./testa_ping_for
+  656  cat testa_ping_for 
+  657  sudo vim testa_ping_for 
+  658  git status
+  659  git add *
+  660  git status
+  661  git commit -m "new scripts"
+  662  git push origin main
+  663  ls -l
+  664  cd linux-scripts-tutorial/
+  665  ls -la
+  666  cd Scripts/
+  667  ls -l
+  668  sudo csh MonitoringProcessWithWhile ls -la
+  669  sudo csh MonitoringProcessWithWhile
+  670  ps aux | grep ls
+  671  ps aux | grep ls | grep -v grep
+  672  ps aux | grep cat | grep -v grep
+  673  ps aux | grep ps | grep -v grep
+  674  ps aux | grep history | grep -v grep
+  675  ps aux
+  676  ps aux | grep ubuntu | grep -v grep
+  677  ls -l
+  678  cp ExecutingCommandsWithWhile01 ExecutingCommandsWithWhile02
+  679  sudo vim ExecutingCommandsWithWhile02
+  680  sudo csh MonitoringProcessWithWhile02
+  681  sudo csh MonitoringProcessWithWhile02 .
+  682  ls -l
+  683  sudo csh ExecutingCommandsWithWhile02
+  684  sudo vim ExecutingCommandsWithWhile02
+  685  sudo csh ExecutingCommandsWithWhile02
+  686  sudo csh ExecutingCommandsWithWhile02 ps aux
+  687  sudo vim ExecutingCommandsWithWhile02
+  688  sudo csh ExecutingCommandsWithWhile02 ps
+  689  ls -l
+  690  pwd
+  691  sudo csh ExecutingCommandsWithWhile02 /home/ubuntu/linux-scripts-tutorial/Scripts/*
+  692  sudo vim ExecutingCommandsWithWhile02
+  693  sudo csh ExecutingCommandsWithWhile02 /home/ubuntu/linux-scripts-tutorial/Scripts/*
+  694  ls -l
+  695  cat MonitorOutput 
+  696  cat MonitoringOutput 
+  697  sudo csh ExecutingCommandsWithWhile02 home
+  698  ls -l
+  699  sudo csh ExecutingCommandsWithWhile02 /usr/bin/*
+  700  sudo vim ExecutingCommandsWithWhile02
+  701  sudo csh ExecutingCommandsWithWhile02 ps aux > MonitorOutput
+  702  ls -l
+  703  pwd
+  704  chmod 777 MonitorOutput 
+  705  sudo chmod 777 MonitorOutput 
+  706  ls -l
+  707  sudo csh ExecutingCommandsWithWhile02 ps aux > MonitorOutput
+  708  ls -l
+  709  cat MonitorOutput 
+  710  cat MonitorOutput | more
+  711  sudo vim MonitorOutput 
+  712  sudo csh ExecutingCommandsWithWhile02 ps aux > MonitorOutput
+  713  sudo vim MonitorOutput 
+  714  ps
+  715  ps aux
+  716  ps aux | grep ps | grep -v grep
+  717  sudo vim MonitorOutput 
+  718  sudo vim ExecutingCommandsWithWhile02
+  719  sudo csh ExecutingCommandsWithWhile02 ps aux > MonitorOutput
+  720  sudo csh ExecutingCommandsWithWhile02 > MonitorOutput
+  721  cat MonitorOutput 
+  722  sudo vim MonitorOutput 
+  723  sudo csh ExecutingCommandsWithWhile02
+  724  ls -l
+  725  sudo vim ExecutingCommandsWithWhile02
+  726  sudo csh ExecutingCommandsWithWhile02
+  727  ls -l
+  728  sudo vim ExecutingCommandsWithWhile02
+  729  sudo csh ExecutingCommandsWithWhile02
+  730  ./ExecutingCommandsWithWhile02
+  731  sudo ExecutingCommandsWithWhile02
+  732  sudo csh ExecutingCommandsWithWhile02 ls
+  733  csh ExecutingCommandsWithWhile02
+  734  sudo vim ExecutingCommandsWithWhile02
+  735  csh ExecutingCommandsWithWhile02
+  736  sudo vim ExecutingCommandsWithWhile02
+  737  sudo vim ExecutingCommandsWithWhile02 ps
+  738  csh ExecutingCommandsWithWhile02 ps
+  739  csh ExecutingCommandsWithWhile02 grep
+  740  csh ExecutingCommandsWithWhile02 ls
+  741  csh ExecutingCommandsWithWhile02 ls > MonitorOutput 
+  742  cat MonitorOutput 
+  743  sudo vim ExecutingCommandsWithWhile02
+  744  csh ExecutingCommandsWithWhile02 ps
+  745  sudo vim ExecutingCommandsWithWhile02
+  746  csh ExecutingCommandsWithWhile02 ps
+  747  sudo vim ExecutingCommandsWithWhile02
+  748  clear
+  749  sudo vim ExecutingCommandsWithWhile02
+  750  csh ExecutingCommandsWithWhile02 ps
+  751  csh ExecutingCommandsWithWhile02 ps aux
+  752  sudo vim ExecutingCommandsWithWhile02
+  753  csh ExecutingCommandsWithWhile02 ps aux
+  754  csh ExecutingCommandsWithWhile02 ps
+  755  csh ExecutingCommandsWithWhile02 ps aux | grep ls
+  756  csh ExecutingCommandsWithWhile02 ps aux | history
+  757  ls
+  758  csh ExecutingCommandsWithWhile02 ps aux | history > MonitorOutput 
