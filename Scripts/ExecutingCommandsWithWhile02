@@ -28,7 +28,7 @@
 while ($1 != "")
 	#clear
 	ps aux | grep $1 | grep -v grep
-	#sleep 5
+	sleep 5
 	shift
 	#clear
 	echo your process has stopped

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#
+
+until users | grep $1
+
+echo $1 is not logged in yet
+sleep 5
+
+echo $1 has just logged in
